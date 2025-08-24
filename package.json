@@ -1,0 +1,17 @@
+{
+  "name": "franta-translations",
+  "version": "1.0.0",
+  "description": "Translation services website for Franta Translations",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "@tailwindcss/forms": "^0.5.7"
+  },
+  "keywords": ["translation", "website", "multilingual"],
+  "author": "Franta Translations",
+  "license": "MIT"
+}

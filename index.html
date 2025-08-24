@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franta Translations</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body class="bg-white text-gray-900 leading-relaxed">
+    <!-- Navigation -->
+    <nav class="bg-white fixed w-full top-0 z-50 border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Desktop Brand (left) -->
+                <div class="hidden md:block">
+                    <div class="flex items-center space-x-3">
+                        <img src="logo.png" alt="Logo" class="h-8 w-8">
+                        <span class="font-medium text-lg text-gray-900">Franta Translations</span>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-gray-900 focus:outline-none p-2">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Desktop Navigation (right aligned) -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-gray-900 font-medium transition-colors">HOME</a>
+                    <a href="#services" class="text-gray-600 hover:text-gray-900 font-medium transition-colors">SERVICES</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 font-medium transition-colors">ABOUT</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900 font-medium transition-colors">CONTACT</a>
+                </div>
+
+                <!-- Mobile Brand (right) -->
+                <div class="md:hidden">
+                    <div class="flex items-center space-x-2">
+                        <img src="logo.png" alt="Logo" class="h-6 w-6">
+                        <span class="font-medium text-sm text-gray-900">Franta Translations</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="hidden md:hidden border-t border-gray-100">
+                <div class="py-6 space-y-6">
+                    <a href="#" class="block text-gray-600 hover:text-gray-900 font-medium transition-colors">HOME</a>
+                    <a href="#services" class="block text-gray-600 hover:text-gray-900 font-medium transition-colors">SERVICES</a>
+                    <a href="#about" class="block text-gray-600 hover:text-gray-900 font-medium transition-colors">ABOUT</a>
+                    <a href="#contact" class="block text-gray-600 hover:text-gray-900 font-medium transition-colors">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-40 pb-32 bg-white">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <!-- Mobile Logo First -->
+            <div class="lg:hidden mb-12">
+                <div class="relative">
+                    <img src="logo.png" alt="Logo" class="w-48 h-48 mx-auto object-contain">
+                </div>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+                <!-- Left Content -->
+                <div class="lg:w-1/2 text-center lg:text-left">
+                    <div class="mb-6">
+                        <span class="text-sm font-medium text-gray-500 tracking-wider uppercase">TRANSLATOR</span>
+                    </div>
+                    <h1 class="text-4xl lg:text-5xl font-light text-gray-900 mb-8 leading-tight">
+                        Translations between English, Spanish, German, Russian and Czech
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-10 leading-relaxed">
+                        Professional translation services with expertise in game localization and technical content.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="mailto:franta-translations@proton.me" class="inline-block text-center bg-gray-900 text-white font-medium py-3 px-8 hover:bg-gray-800 transition-colors">
+                            EMAIL ME
+                        </a>
+                        <a href="https://www.fiverr.com/frantisekfarsa?public_mode=true" target="_blank" rel="noopener noreferrer" class="inline-block text-center border border-gray-300 text-gray-900 font-medium py-3 px-8 hover:border-gray-900 transition-colors">
+                            FIVERR PROFILE →
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Desktop Logo (Right) -->
+                <div class="hidden lg:block lg:w-1/2">
+                    <div class="relative">
+                        <img src="logo.png" alt="Logo" class="w-80 h-80 mx-auto object-contain">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-12 lg:py-24 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <div class="mb-8 lg:mb-16">
+                <span class="text-sm font-medium text-gray-500 tracking-wider uppercase">SERVICES</span>
+                <h2 class="text-3xl font-light text-gray-900 mt-4 mb-8">What I Offer</h2>
+            </div>
+            
+            <div class="space-y-8 text-lg text-gray-700">
+                <div class="flex items-start">
+                    <span class="text-gray-400 mr-4">—</span>
+                    <span>Translations of texts</span>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-gray-400 mr-4">—</span>
+                    <span>Localization of CSV files (for Godot Engine)</span>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-gray-400 mr-4">—</span>
+                    <span>Language combinations: anything between English, Spanish, German, Russian and Czech</span>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-gray-400 mr-4">—</span>
+                    <span><strong>Price: 0.01 USD per word</strong></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Demonstrations -->
+    <section class="py-12 lg:py-24 bg-white border-t border-gray-100">
+        <div class="max-w-5xl mx-auto px-6 lg:px-8">
+            <div class="mb-8 lg:mb-16">
+                <span class="text-sm font-medium text-gray-500 tracking-wider uppercase">VIDEOS</span>
+                <h2 class="text-3xl font-light text-gray-900 mt-4">What I offer</h2>
+            </div>
+            
+            <div class="space-y-16">
+                <!-- Video 1 -->
+                <div class="relative group">
+                    <video controls poster="csv_preview.png" class="w-full h-auto">
+                        <source src="CSV_Translation.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-gray-900">CSV Translation Process</h3>
+                        <p class="text-gray-600 mt-2">Specialized localization workflow for Godot Engine projects</p>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="relative group">
+                    <video controls poster="translations_preview.png" class="w-full h-auto">
+                        <source src="franta_translation.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-gray-900">Translation Services Overview</h3>
+                        <p class="text-gray-600 mt-2">Comprehensive approach to professional translation work</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 lg:py-24 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <div class="mb-8 lg:mb-16">
+                <span class="text-sm font-medium text-gray-500 tracking-wider uppercase">ABOUT</span>
+                <h2 class="text-3xl font-light text-gray-900 mt-4 mb-8">About Me</h2>
+            </div>
+            
+            <div class="text-lg text-gray-700 leading-relaxed">
+                <p>
+                    Hi! I am Franta, a translator from the Czech Republic. Apart from Czech (my mother tongue), I speak English, Spanish, German and Russian fluently. I provide translation services. I am also interested in mathematics, physics and programming. I am familiar with Godot and understand the CSV-based localization system, so I am a good choice if you are looking for a translator for your Godot game.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 lg:py-24 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <div class="mb-8 lg:mb-16">
+                <span class="text-sm font-medium text-gray-500 tracking-wider uppercase">CONTACT</span>
+                <h2 class="text-3xl font-light text-gray-900 mt-4 mb-8">Get In Touch</h2>
+            </div>
+            
+            <div class="space-y-6 text-lg text-gray-700">
+                <div>
+                    <span class="text-gray-500">Email:</span>
+                    <a href="mailto:franta-translations@proton.me" class="ml-4 text-gray-900 hover:text-gray-600 transition-colors underline">
+                        franta-translations@proton.me
+                    </a>
+                </div>
+                <div>
+                    <span class="text-gray-500">Fiverr:</span>
+                    <a href="https://www.fiverr.com/frantisekfarsa?public_mode=true" target="_blank" rel="noopener noreferrer" class="ml-4 text-gray-900 hover:text-gray-600 transition-colors underline">
+                        View my profile →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <p class="text-sm text-gray-500">© 2025 Fratnatranslations</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for mobile menu -->
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on links
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileMenuButton.contains(e.target) && !mobileMenu.contains(e.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
